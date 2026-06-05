@@ -4,8 +4,7 @@ import joblib
 from sklearn.decomposition import PCA
 from sklearn.preprocessing import StandardScaler
 
-df = pd.read_csv(r"C:\Users\HARSHAVARDHAN\OneDrive\Desktop\TekWorks\phase2\5may\clustering_project\data\Iris.csv")
-
+df = pd.read_csv("data/Iris.csv")
 X = df.drop(
     columns=["Id", "Species"],
     errors="ignore"
