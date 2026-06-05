@@ -11,9 +11,7 @@ st.set_page_config(
 )
 
 st.title("📉 Dimensionality Reduction Dashboard")
-
-df = pd.read_csv(r"C:\Users\HARSHAVARDHAN\OneDrive\Desktop\TekWorks\phase2\5may\clustering_project\data\Iris.csv")
-
+df = pd.read_csv("data/Iris.csv")
 
 species = df["Species"]
 
